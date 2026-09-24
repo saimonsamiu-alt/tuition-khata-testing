@@ -5,7 +5,7 @@
 // v3: index.html now loads its JS from separate files under js/ (split for maintainability),
 // so those files are precached too. Bump this version any time index.html, sw.js, the icons,
 // or any file under js/ changes, so returning visitors get the update instead of a stale cache.
-const CACHE_NAME = 'tuition-app-v3';
+const CACHE_NAME = 'tuition-app-v4';
 const PRECACHE_ASSETS = [
   './',
   './index.html',
@@ -13,20 +13,20 @@ const PRECACHE_ASSETS = [
   './icon.svg',
   './icon-192.png',
   './icon-512.png',
-  './js/core.js',
-  './js/doubt.js',
-  './js/exams.js',
-  './js/topics.js',
-  './js/attendance.js',
-  './js/faq.js',
-  './js/notes.js',
-  './js/mastery.js',
-  './js/coupon.js',
-  './js/shop.js',
-  './js/writtencq.js',
-  './js/auth.js',
-  './js/withdrawals.js',
-  './js/render.js',
+  './core.js',
+  './doubt.js',
+  './exams.js',
+  './topics.js',
+  './attendance.js',
+  './faq.js',
+  './notes.js',
+  './mastery.js',
+  './coupon.js',
+  './shop.js',
+  './writtencq.js',
+  './auth.js',
+  './withdrawals.js',
+  './render.js',
 ];
 
 self.addEventListener('install', event => {
