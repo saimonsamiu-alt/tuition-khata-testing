@@ -24,7 +24,7 @@ const CREATOR_DEPT = 'Industrial and Production Engineering (IPE)';
 const CREATOR_WHATSAPP = '01577477346';
 const CREATOR_WA_LINK = 'https://wa.me/8801577477346';
 
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxY6ILwU6q3Sao7dgeabhpwijEDXL1n9ED04LEJdYUqGYgxXAPO4kz1mRWdbZxiPGF3/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzuZR6OqN8hwZW9wAk3vG-2kPUZKCjSTvPZQVWaYCvwCxD06DZZWLsA1lJIyjVwZ6Se/exec';
 
 const holesEl = document.getElementById('holes');
 for(let i=0;i<10;i++){ const s=document.createElement('span'); holesEl.appendChild(s); }
